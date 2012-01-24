@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# compile sass to css
+cd ../public/scss;
+compass compile;
+cd ../../scripts;
+
+# minify css
+juicer merge ../public/css/application.css -o ../public/css/application.min.css --force --embed-images data_uri;
+juicer merge ../public/css/retina.css -o ../public/css/retina.min.css --force --embed-images data_uri;
+
+# minify javascript
+juicer merge ../public/app/kentmobile.js -o ../public/app/kentmobile.min.js --force -s;
+
+# update cache manifest so browser knows to update
+perl -pi -e "s/# date: ([0-9\/ :])*/# date: `date '+%d\/%m\/%y %H:%M:%S'`/g" -- ../public/app.manifest
+

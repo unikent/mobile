@@ -1,0 +1,19 @@
+default:
+  paths:
+    steps:
+      - %behat.paths.features%/steps
+    hooks:
+      - %behat.paths.support%/hooks.php
+      - %%BEHAT_MINK_PATH%%/src/Behat/Mink/Integration/support/hooks.php
+  formatter:
+    name:       'progress'
+  environment:
+    class:  Behat\Mink\Integration\MinkEnvironment
+    parameters:
+      start_url: http://local-test.account/
+      browser: firefox
+        
+wip:
+  formatter:
+    name:       'pretty'
+

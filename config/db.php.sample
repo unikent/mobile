@@ -1,0 +1,16 @@
+<?php
+
+$db_settings['dev']['host'] = 'localhost';
+$db_settings['dev']['username'] = 'root';
+$db_settings['dev']['password'] = 'root';
+$db_settings['dev']['database'] = 'ppcmon';
+
+$db_settings['test']['host'] = 'localhost';
+$db_settings['test']['username'] = 'root';
+$db_settings['test']['password'] = 'root';
+$db_settings['test']['database'] = 'ppcmon';
+
+$db_settings['prod']['host'] = 'localhost';
+$db_settings['prod']['username'] = 'root';
+$db_settings['prod']['password'] = 'root';
+$db_settings['prod']['database'] = 'ppcmon';

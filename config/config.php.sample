@@ -1,0 +1,62 @@
+<?php
+
+option('debug',false);
+option('views_dir',APP_ROOT.'/views');
+
+define('DISABLE_DB_SESSION', true);
+define('DISABLE_ACTIVE_RECORD', true);
+
+// list of cluster ids that we want to show. Note that the indexes are just for convenience
+$room_cluster_map = array(
+	"LEVEL_4_1" => 4,
+	"LEVEL_4_2" => 25,
+	"LEVEL_3_1" => 3,
+	"LEVEL_2_1" => 2,
+	"LEVEL_2_2" => 21,
+	
+	"ELIOT_1" => 6,
+	"ELIOT_2" => 20,
+	
+	"RUTHERFORD_1" => 7,
+	"RUTHERFORD_2" => 24,
+	
+	"DARWIN_1" => 17,
+	"DARWIN_2" => 18,
+	"DARWIN_3" => 19,
+	
+	"KEYNES_1" => 8,
+	"KEYNES_2" => 9,
+	
+	"CORNWALLIS_1" => 11,
+	"CORNWALLIS_2" => 12,
+	"CORNWALLIS_3" => 13,
+	"CORNWALLIS_4" => 14,
+	"CORNWALLIS_5" => 15,
+	
+	"KRDC" => 137,
+);
+
+option('room_cluster_map', $room_cluster_map);
+option('fake_ldap', true);
+option('fake_ical_file', true);
+option('ical_xml_path', '/www/shared/wwwroot/timetabling/icalendar/personal/ical_id.xml');
+option('ssl', 'http://');
+option('domain', 'localhost');
+option('email_from',"Help Desk <helpdesk@kent.ac.uk>");
+option('footprint_email','sbsrem@kent.ac.uk');
+option('store_emails_in_tmp',true);  
+
+// list of links to the blogs for help on device setup
+$setup_configuration_links = array(
+	array('url'=>"http://blogs.kent.ac.uk/mobiledevices/category/android/rss", 'text'=>'Android'),
+	array('url'=>"http://blogs.kent.ac.uk/mobiledevices/category/apple-os/rss", 'text'=>'Apple OS'),
+	array('url'=>"http://blogs.kent.ac.uk/mobiledevices/category/blackberry/rss", 'text'=>'Blackberry'),
+	array('url'=>"http://blogs.kent.ac.uk/mobiledevices/category/symbian/rss", 'text'=>'Symbian'),
+	array('url'=>"http://blogs.kent.ac.uk/mobiledevices/category/windows-mobile/rss", 'text'=>'Windows Mobile'),
+	array('url'=>"http://blogs.kent.ac.uk/mobiledevices/category/connectmail/rss", 'text'=>'ConnectMail'),
+	array('url'=>"http://blogs.kent.ac.uk/mobiledevices/category/liveedu/rss", 'text'=>'Live@edu'),
+	array('url'=>"http://blogs.kent.ac.uk/mobiledevices/category/wifi-settings-at-kent/rss", 'text'=>'Wifi (eduroam)'),
+	
+);
+option('setup_configuration_links', $setup_configuration_links);
+option('fake_configuration_rss', true);

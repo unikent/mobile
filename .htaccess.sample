@@ -1,0 +1,20 @@
+Options -Indexes
+SetEnv ENV dev
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  # if your app is in a subfolder
+  RewriteBase /mobile
+
+	# test string is a valid files
+  RewriteCond %{SCRIPT_FILENAME} !-f
+  # test string is a valid directory
+  RewriteCond %{SCRIPT_FILENAME} !-d
+
+  RewriteRule ^(.*)$   ./public/$1    [NC,L,QSA]
+  RewriteRule ^$ ./public/index.php?uri= [NC,L,QSA]
+  
+  # with QSA flag (query string append),
+  # forces the rewrite engine to append a query string part of the
+  # substitution string to the existing string, instead of replacing it.
+</IfModule>

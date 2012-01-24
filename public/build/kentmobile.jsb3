@@ -1,0 +1,316 @@
+{
+    "projectName": "Sencha Touch",
+    "licenseText": "Copyright(c) 2010 Sencha Inc.\nlicensing@sencha.com\nhttp://www.sencha.com/touchlicense",
+    "packages": [
+        {
+            "name"  : "Platform Util",
+            "target": "pkgs/platform/util.js",
+            "id"    : "platform-util",
+            "files" : [
+                {"path": "vendor/sencha/src/platform/src/",      "name": "Ext.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Observable.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Stateful.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "HashMap.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "MixedCollection.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "AbstractManager.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "DelayedTask.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "GeoLocation.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Region.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Point.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Offset.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Template.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "XTemplate.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Sorter.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Filter.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Function.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Date.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Number.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "Format.js"},
+                {"path": "vendor/sencha/src/platform/src/util/", "name": "LoadMask.js"}
+            ]
+        },
+        {
+            "name"  : "Platform Native",
+            "target": "pkgs/platform/native.js",
+            "id"    : "platform-native",
+            "files" : [
+                {"path": "vendor/sencha/src/platform/src/native/", "name": "Array.js"}
+            ]
+        },
+        {
+            "name"  : "Platform Core",
+            "target": "pkgs/platform/core.js",
+            "id"    : "platform-core",
+            "files" : [
+                {"path": "vendor/sencha/src/platform/src/", "name": "ComponentMgr.js"},
+                {"path": "vendor/sencha/src/platform/src/", "name": "ComponentQuery.js"},
+                {"path": "vendor/sencha/src/platform/src/", "name": "PluginMgr.js"},
+                {"path": "vendor/sencha/src/platform/src/", "name": "EventManager.js"},
+                {"path": "vendor/sencha/src/platform/src/", "name": "Support.js"}
+            ]
+        },
+        {
+            "name"  : "Platform MVC",
+            "target": "pkgs/platform/mvc.js",
+            "id"    : "platform-mvc",
+            "files" : [
+                {"path": "vendor/sencha/src/core/",             "name": "History.js"},
+                {"path": "vendor/sencha/src/platform/src/app/", "name": "ControllerManager.js"},
+                {"path": "vendor/sencha/src/platform/src/app/", "name": "Controller.js"},
+                {"path": "vendor/sencha/src/platform/src/app/", "name": "Dispatcher.js"},
+                {"path": "vendor/sencha/src/platform/src/app/", "name": "Router.js"},
+                {"path": "vendor/sencha/src/platform/src/app/", "name": "Route.js"},
+                {"path": "vendor/sencha/src/platform/src/app/", "name": "Interaction.js"},
+                {"path": "vendor/sencha/src/platform/src/app/", "name": "Application.js"},
+                {"path": "vendor/sencha/src/platform/src/app/", "name": "ApplicationManager.js"}
+            ]
+        },
+
+        {
+            "name": "Data Foundation",
+            "id": "data-foundation",
+            "target": "pkgs/platform/data-foundation.js",
+            "files": [
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Batch.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Model.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Association.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "HasManyAssociation.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "BelongsToAssociation.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "PolymorphicAssociation.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Validations.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Errors.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Field.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "SortTypes.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Types.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "ModelMgr.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Operation.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "ProxyMgr.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "ReaderMgr.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Request.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "ResultSet.js"},
+                {"path": "vendor/sencha/src/platform/src/data/stores/",  "name": "AbstractStore.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Store.js"},
+                {"path": "vendor/sencha/src/platform/src/data/stores/",  "name": "TreeStore.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "StoreMgr.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "WriterMgr.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Tree.js"},
+                {"path": "vendor/sencha/src/platform/src/data/",         "name": "Node.js"},
+                {"path": "vendor/sencha/src/platform/src/data/proxies/", "name": "Proxy.js"},
+                {"path": "vendor/sencha/src/platform/src/data/proxies/", "name": "ServerProxy.js"},
+                {"path": "vendor/sencha/src/platform/src/data/proxies/", "name": "AjaxProxy.js"},
+                {"path": "vendor/sencha/src/platform/src/data/proxies/", "name": "RestProxy.js"},
+                {"path": "vendor/sencha/src/platform/src/data/proxies/", "name": "ScriptTagProxy.js"},
+                {"path": "vendor/sencha/src/platform/src/data/proxies/", "name": "ClientProxy.js"},
+                {"path": "vendor/sencha/src/platform/src/data/proxies/", "name": "MemoryProxy.js"},
+                {"path": "vendor/sencha/src/platform/src/data/proxies/", "name": "WebStorageProxy.js"},
+                {"path": "vendor/sencha/src/platform/src/data/proxies/", "name": "LocalStorageProxy.js"},
+                {"path": "vendor/sencha/src/platform/src/data/proxies/", "name": "SessionStorageProxy.js"},
+                {"path": "vendor/sencha/src/platform/src/data/readers/", "name": "Reader.js"},
+                {"path": "vendor/sencha/src/platform/src/data/writers/", "name": "Writer.js"}
+            ]
+        },
+        {
+            "name": "Data - Json",
+            "id": "data-json",
+            "target": "pkgs/platform/data-json.js",
+            "files": [
+                {"path": "vendor/sencha/src/platform/src/data/writers/", "name": "JsonWriter.js"},
+                {"path": "vendor/sencha/src/platform/src/data/readers/", "name": "JsonReader.js"},
+                {"path": "vendor/sencha/src/platform/src/data/readers/", "name": "TreeReader.js"},
+                {"path": "vendor/sencha/src/platform/src/data/readers/", "name": "ArrayReader.js"},
+                {"path": "vendor/sencha/src/platform/src/data/stores/",  "name": "ArrayStore.js"},
+                {"path": "vendor/sencha/src/platform/src/data/stores/",  "name": "JsonStore.js"},
+                {"path": "vendor/sencha/src/platform/src/data/stores/",  "name": "JsonPStore.js"}
+            ]
+        },
+        {
+            "name": "Data - XML",
+            "id": "data-xml",
+            "target": "pkgs/platform/data-xml.js",
+            "files": [
+                {"path": "vendor/sencha/src/platform/src/data/writers/", "name": "XmlWriter.js"},
+                {"path": "vendor/sencha/src/platform/src/data/readers/", "name": "XmlReader.js"},
+                {"path": "vendor/sencha/src/platform/src/data/stores/",  "name": "XmlStore.js"}
+            ]
+        },
+
+        {
+            "name"  : "Touch Core",
+            "target": "pkgs/core.js",
+            "id"    : "core",
+            "files" : [
+                {"path": "vendor/sencha/src/core/", "name": "Ext.js"},
+				{"path": "vendor/sencha/src/core/", "name": "Viewport.js"},
+                {"path": "vendor/sencha/src/util/", "name": "TapRepeater.js"},
+                {"path": "vendor/sencha/src/util/", "name": "JSON.js"},
+                {"path": "vendor/sencha/src/util/", "name": "JSONP.js"},
+                {"path": "vendor/sencha/src/util/", "name": "Draggable.js"},
+                {"path": "vendor/sencha/src/util/", "name": "Droppable.js"},
+                {"path": "vendor/sencha/src/util/", "name": "Scroller.js"},
+                {"path": "vendor/sencha/src/util/", "name": "Sortable.js"},
+                {"path": "vendor/sencha/src/util/", "name": "Date.js"},
+                {"path": "vendor/sencha/src/data/", "name": "Connection.js"},
+				{"path": "vendor/sencha/src/util/", "name": "EventSimulator.js"},
+				{"path": "vendor/sencha/src/util/", "name": "EventRecorder.js"}
+            ]
+        },
+
+        {
+            "name"  : "Touch Gestures",
+            "target": "pkgs/gestures.js",
+            "id"    : "gestures",
+            "files" : [
+                {"path": "vendor/sencha/src/gestures/", "name": "Manager.js"},
+                {"path": "vendor/sencha/src/gestures/", "name": "Event.js"},
+                {"path": "vendor/sencha/src/gestures/", "name": "Gesture.js"},
+                {"path": "vendor/sencha/src/gestures/", "name": "Touch.js"},
+                {"path": "vendor/sencha/src/gestures/", "name": "Tap.js"},
+                {"path": "vendor/sencha/src/gestures/", "name": "Swipe.js"},
+                {"path": "vendor/sencha/src/gestures/", "name": "Drag.js"},
+                {"path": "vendor/sencha/src/gestures/", "name": "Pinch.js"}
+            ]
+        },
+
+        {
+            "name"  : "Touch DOM",
+            "target": "pkgs/dom.js",
+            "id"    : "dom",
+            "files" : [
+                {"path": "vendor/sencha/src/core/", "name": "Element.js"},
+                {"path": "vendor/sencha/src/platform/src/core/", "name": "Element.static.js"},
+                {"path": "vendor/sencha/src/core/", "name": "Element.static-more.js"},
+                {"path": "vendor/sencha/src/core/", "name": "Element.position.js"},
+                {"path": "vendor/sencha/src/core/", "name": "Element.style.js"},
+                {"path": "vendor/sencha/src/platform/src/core/", "name": "Element.traversal.js"},
+                {"path": "vendor/sencha/src/core/", "name": "Element.traversal-more.js"},
+                {"path": "vendor/sencha/src/platform/src/core/", "name": "Element.insertion.js"},
+                {"path": "vendor/sencha/src/core/", "name": "Element.alignment.js"},
+                {"path": "vendor/sencha/src/core/", "name": "CompositeElement.js"},
+                {"path": "vendor/sencha/src/core/", "name": "DomHelper.js"},
+                {"path": "vendor/sencha/src/core/", "name": "DomQuery.js"},
+                {"path": "vendor/sencha/src/core/", "name": "Anim.js"},
+                {"path": "vendor/sencha/src/core/", "name": "Anim.more.js"}
+            ]
+        },
+        {
+            "name"  : "Touch Layouts",
+            "target": "pkgs/layouts.js",
+            "id"    : "layouts",
+            "files" : [
+                {"path": "vendor/sencha/src/platform/src/layout/",           "name": "LayoutManager.js"},
+                {"path": "vendor/sencha/src/platform/src/layout/",           "name": "Layout.js"},
+                {"path": "vendor/sencha/src/platform/src/layout/component/", "name": "ComponentLayout.js"},
+                {"path": "vendor/sencha/src/platform/src/layout/component/", "name": "AutoComponentLayout.js"},
+                {"path": "vendor/sencha/src/platform/src/layout/component/", "name": "DockLayout.js"},
+                {"path": "vendor/sencha/src/layout/component/",              "name": "FieldLayout.js"},
+                {"path": "vendor/sencha/src/platform/src/layout/container/", "name": "ContainerLayout.js"},
+                {"path": "vendor/sencha/src/platform/src/layout/container/", "name": "AutoContainerLayout.js"},
+                {"path": "vendor/sencha/src/platform/src/layout/container/", "name": "FitLayout.js"},
+                {"path": "vendor/sencha/src/platform/src/layout/container/", "name": "CardLayout.js"},
+                {"path": "vendor/sencha/src/layout/container/",              "name": "BoxLayout.js"}
+            ]
+        },
+        {
+            "name": "Widgets",
+            "target": "pkgs/widgets.js",
+            "id": "widgets",
+            "files": [
+                {"path": "vendor/sencha/src/platform/src/", "name": "Component.js"},
+                {"path": "vendor/sencha/src/widgets/",      "name": "Component.js"},
+                {"path": "vendor/sencha/src/platform/src/", "name": "Container.js"},
+                {"path": "vendor/sencha/src/widgets/",      "name": "Container.js"},
+                {"path": "vendor/sencha/src/platform/src/", "name": "Panel.js"},
+                {"path": "vendor/sencha/src/widgets/",      "name": "Panel.js"},
+
+                {"path": "vendor/sencha/src/widgets/", "name": "Button.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "SegmentedButton.js"},
+                {"path": "vendor/sencha/src/platform/src/misc/", "name": "AbstractStoreSelectionModel.js"},
+                {"path": "vendor/sencha/src/platform/src/misc/", "name": "DataViewSelectionModel.js"},
+                {"path": "vendor/sencha/src/platform/src/misc/", "name": "DataView.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "DataView.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "List.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "IndexBar.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "Toolbar.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "Sheet.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "TabBar.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "Tab.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "TabPanel.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "Carousel.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "Map.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "NestedList.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "Picker.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "DatePicker.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "Media.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "Video.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "Audio.js"},
+                {"path": "vendor/sencha/src/widgets/", "name": "MessageBox.js"},
+
+                {"path": "vendor/sencha/src/widgets/form/", "name": "FormPanel.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "FieldSet.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Field.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Slider.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Toggle.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Text.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Password.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Email.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Url.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Search.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Number.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Spinner.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Hidden.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Checkbox.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Radio.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "Select.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "TextArea.js"},
+                {"path": "vendor/sencha/src/widgets/form/", "name": "DatePicker.js"}
+            ]
+        },
+        {
+            "name"  : "Plugins",
+            "target": "pkgs/plugins.js",
+            "id"    : "plugins",
+            "files" : [
+                {"path": "vendor/sencha/src/plugins/list/", "name": "ListPaging.js"},
+                {"path": "vendor/sencha/src/plugins/list/", "name": "PullRefresh.js"}
+            ]
+        }
+    ],
+    "builds": [
+        {
+            "name": "Sencha Touch",
+            "target": "sencha-touch.js",
+            "debug": true,
+		   "options": {
+		      "minVersion": 1.1
+		   },
+            "packages": [
+                "platform-util",
+                "platform-native",
+                "platform-core",
+                "data-foundation",
+                "data-json",
+                "data-xml",
+                "platform-mvc",
+                "dom",
+                "core",
+                "gestures",
+                "widgets",
+                "layouts",
+                "plugins"
+            ]
+        }
+    ],
+    "resources": [
+        {"src": "vendor/sencha/resources/"},
+        {"src": "vendor/sencha/src/"},
+        {"src": "vendor/sencha/jsbuilder/"},
+        {"src": "vendor/sencha/examples/"},
+        {"src": "vendor/sencha/test/"},
+        {"src": "vendor/sencha/sencha-touch.jsb3"},
+        {"src": "vendor/sencha/license.txt"},
+        {"src": "vendor/sencha/license.inc"},
+        {"src": "vendor/sencha/release-notes.html"},
+        {"src": "vendor/sencha/getting-started.html"},
+        {"src": "vendor/sencha/index.html"}
+    ]
+}

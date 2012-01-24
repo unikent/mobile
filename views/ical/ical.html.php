@@ -1,0 +1,2 @@
+<h4>Click the button to subscribe to your timetable iCal feed.</h4>
+<a href="webcal://www.kent.ac.uk/timetabling/ical/<?php echo $ical_id ?>.ics" data-role="button">Timetable iCal feed for <?php echo $login ?></a>

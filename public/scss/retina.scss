@@ -1,0 +1,134 @@
+.x-grid-item-body-icon {
+	-webkit-background-size: 57px 57px;
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon .external-icon {
+	-webkit-background-size: 7px 7px;
+	background-image: inline-image("external-icon@2x.png");
+}
+
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.maps {
+	background-image: inline-image("map-app-icon@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.freePc {
+	background-image: inline-image("pc-app-icon@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.timetable {
+	background-image: inline-image("timetable-app-icon@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.mainSiteLaunch {
+	background-image: inline-image("mainsite-app-icon@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.catalogueLaunch {
+	background-image: inline-image("catalogue-app-icon@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.moodleLaunch {
+	background-image: inline-image("moodle-app-icon@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.sdsLaunch {
+	background-image: inline-image("sds-app-icon@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.newsLaunch {
+	background-image: inline-image("news-app-icon@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.gettingStarted {
+	background-image: inline-image("gettingStarted-app-icon@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.travel {
+	background-image: inline-image("travel-app-icon@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.a2zLauncher {
+	background-image: inline-image("a2z@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.Announcement {
+	background-image: inline-image("news@2x.png");
+}
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.Social {
+	background-image: inline-image("social@2x.png");
+} 
+
+.x-grid .x-grid-item .x-grid-item-body .x-grid-item-body-icon.help {
+	background-image: inline-image("help-app-icon@2x.png");
+}
+
+.x-grid-item-body-icon.feedbackAlias {
+	background-image: inline-image("feedback-app-icon@2x.png");
+}
+
+.home-toolbar2.x-toolbar.x-docked-top .logo {
+	-webkit-background-size: 247px 33px;
+	background-image: inline-image("logo@2x.png");
+}
+
+.x-leaflet {
+	-webkit-background-size: 16px 16px;
+}
+
+.x-tab img.map, .x-button img.x-icon-mask.map {
+	-webkit-mask-image: inline-image("map-icon@2x.png");
+}
+
+.x-tab img.building, .x-button img.x-icon-mask.building {
+	-webkit-mask-image: inline-image("building-icon@2x.png");
+}
+
+.x-tab img.canterbury, .x-button img.x-icon-mask.canterbury {
+	-webkit-mask-image: inline-image("canterbury-icon@2x.png");
+}
+
+.x-tab img.medway, .x-button img.x-icon-mask.medway {
+	-webkit-mask-image: inline-image("medway-icon@2x.png");
+}
+
+.x-tab img.campus, .x-button img.x-icon-mask.campus {
+	-webkit-mask-image: inline-image("campus-icon@2x.png");
+}
+
+.x-tab img.travel, .x-button img.x-icon-mask.travel {
+	-webkit-mask-image: inline-image("travel-icon@2x.png");
+}
+
+.x-toolbar .x-button.home .content {
+	-webkit-mask-image: inline-image("home-icon@2x.png");
+}
+
+.x-toolbar .x-button.help .content {
+	-webkit-mask-image: inline-image("help-icon@2x.png");
+}
+
+.x-list .x-list-item .arrow {
+	-webkit-mask-image: inline-image("list-item-arrow@2x.png");
+}
+
+.x-list .pcroom-list-item.pcroom-list-item-disclaimer .x-list-item-body a {
+	-webkit-background-size: 16px 16px;
+	background-image: inline-image("information@2x.png");
+}
+.x-list .pcroom-list-item.pcroom-list-item-opening .x-list-item-body a {
+	-webkit-background-size: 16px 16px;
+	background-image: inline-image("clock@2x.png");
+}
+
+.social_links.facebook .icon {
+	-webkit-background-size: 35px 25px;
+	background-image: inline-image("facebook@2x.png");
+}
+.social_links.twitter .icon {
+	-webkit-background-size: 35px 25px;
+	background-image: inline-image("twitter@2x.png");
+}
+.social_links.youtube .icon {
+	-webkit-background-size: 28px 34px;
+	background-image: inline-image("youtube@2x.png");
+}
+.social_links.linkedin .icon {
+	-webkit-background-size: 35px 25px;
+	background-image: inline-image("linkedin@2x.png");
+}
+.social_links.flickr .icon {
+	-webkit-background-size: 35px 25px;
+	background-image: inline-image("flickr@2x.png");
+}
+.social_links.blogs .icon {
+	-webkit-background-size: 35px 25px;
+	background-image: inline-image("blogs@2x.png");
+}
